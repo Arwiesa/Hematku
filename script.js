@@ -1,3 +1,7 @@
+// --- KONFIGURASI SUPABASE ---
+const SUPABASE_URL = 'https://hdgfyrrtmbrsbtmhjdrf.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhkZ2Z5cnJ0bWJyc2J0bWhqZHJmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTMwOTI3MjIsImV4cCI6MjEwODY2ODcyMn0.EiBVQ6Vv6eS7mWnzPKUec_3MfHSBPeTG6GcWQ-CzHWw';
+
 // State Application
 let transactions = JSON.parse(localStorage.getItem('hematku_transactions')) || [];
 let currentType = 'expense'; // 'expense' or 'income'
